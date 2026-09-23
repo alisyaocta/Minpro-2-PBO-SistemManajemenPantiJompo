@@ -90,36 +90,53 @@ Gambar di atas menunjukkan data Penghuni Mandiri. Ketika pengguna memilih menu i
 
 <img width="375" height="189" alt="image" src="https://github.com/user-attachments/assets/e9aaf726-aaa1-40db-8496-f91d7757019b" />
 
+Pada menu Update Data, pengguna dapat memilih informasi yang ingin diperbarui. Sistem menyediakan empat pilihan informasi yang dapat diubah, yaitu Usia Penghuni, Kondisi Kesehatan Penghuni, Update Informasi Khusus Penghuni Intensif, dan Update Informasi Khusus Penghuni Mandiri. 
+
 ### 2.4.1 Update Umur Penghuni
 
 <img width="377" height="125" alt="image" src="https://github.com/user-attachments/assets/c98e4e1e-0ce6-4052-b7b8-5864bd102050" />
+
+Pada menu Update Usia, pengguna perlu memasukkan ID penghuni yang ingin diperbarui usianya. Setelah ID penghuni ditemukan, pengguna dapat memasukkan usia terbaru penghuni tersebut. Kemudian sistem akan memperbarui data usia sesuai dengan input yang diberikan.
 
 ### 2.4.2 Update Kondisi Penghuni
 
 <img width="378" height="124" alt="image" src="https://github.com/user-attachments/assets/a884c5c9-a034-4610-8026-e7b0bba3f8b1" />
 
+Pada menu Update Kondisi, pengguna perlu measukkan ID penghuni yang ingin diperbarui kondisi kesehatannya. Pembaruan kondisi Kesehatan ini diperlukan untuk memastikan informasi yang tersimpan sesuai dengan kondisi terkini penghuni sehingga dapat membantu pihak panti dalam melakukan pemantauan dan pengelolaan kesehatan para lansianya.
+
 ### 2.4.3 Update Informasi Khusus Penghuni Intensif
 
 <img width="374" height="136" alt="image" src="https://github.com/user-attachments/assets/7f9ee51d-aa0c-4eed-9d88-17795a73166a" />
+
+Pada menu ini, pengguna dapat memperbarui jadwal pemberian obat dan jadwal kontrol medis. Apabila pengguna hanya ingin memperbarui jadwal kontrol medis saja, maka pengguna cukup mengetikkan kembali jadwal pemberian obat yang sama seperti sebelumnya, sehingga perubahan pada jadwal kontrol medis tetap dapat tersimpan dan ditampilkan.
 
 ### 2.4.4 Update Informasi Khusus Penghuni Mandiri
 
 <img width="411" height="124" alt="image" src="https://github.com/user-attachments/assets/a4fcaf53-88a1-4d74-8218-53f465759f30" />
 
+Pada menu ini, pengguna hanya dapat memperbarui jadwal kegiatan harian penghuni mandiri.
+
 ## 2.5 Menu Hapus
 
 <img width="375" height="114" alt="image" src="https://github.com/user-attachments/assets/340be7a9-e811-45be-b39b-aba81841a001" />
 
+Pada menu Hapus Data, pengguna dapat menghapus data penghuni dengan memasukkan ID penghuni yang ingin dihapus. Sistem nantinya akan mencari data berdasarkan ID yang dimasukkan, kemudian menghapus data penghuni tersebut dari daftar aspabila ID ditemukan. 
 
 <img width="425" height="91" alt="image" src="https://github.com/user-attachments/assets/c0cbf498-363f-466d-b77a-bb3f3606f640" />
+
+Gambar di atas merupakan tampilan ketika pengguna mencari penghuni dengan nama tersebut yang sebelumya sudah dihapus, sistem pasti akan menampilkan pesan bahwa pasien dengan nama tersebut tidak ditemukan.
 
 ## 2.6 Menu Cari
 
 <img width="379" height="256" alt="image" src="https://github.com/user-attachments/assets/09893c65-cb3d-4901-badb-9adc9491f58d" />
 
+Pada menu Cari Data Penghuni, pengguna dapat mencari informasi mengenai penghuni panti jompo dengan memasukkan nama penghuni yang ingin dicari. Penggunaan nama sebagai kata kunci pencarian dipilih karena pengguna cenderung lebih mudah mengingat nama penghuni dibandingkan dengan ID.
+
 ## 2.7 Menu Keluar
 
 <img width="373" height="268" alt="image" src="https://github.com/user-attachments/assets/4f5313e2-a1e5-4937-98a9-428b87cef665" />
+
+Pada menu Keluar, pengguna dapat memilih menu tersebut apabila telah selesai menggunakan sistem. Setelah menu dipilih, program akan menghentikan seluruh proses dan keluar dari sistem sehingga pengguna tidak dapat melakukan pengelolaan data lagi sampai program dijalankan kembali.
 
 ---
 
