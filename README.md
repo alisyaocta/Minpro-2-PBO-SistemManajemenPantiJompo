@@ -170,13 +170,21 @@ Gambar di atas juga menunjukkan penerapan konsep inheritance pada program. Pada 
 
 <img width="555" height="263" alt="image" src="https://github.com/user-attachments/assets/15d5c32f-4a46-4b60-9456-5a0fab8b37f1" />
 
+Gambar di atas menampilkan penggunaan konsep enkapsulasi pada class PenghuniPanti. Atribut pada class PenghuniPanti diatur menggunakan access modifier private. Penggunaan access private bertujuan untuk membatasi akses langsung dari luar class sehingga nilai atribut tidak dapat dimodifikasi secara langsung dan sembarangan.
+
+Dengan menerapkan enkapsulasi, perubahan dan pengambilan data penghuni dilakukan melalui method yang telah disediakan oleh class. Hal ini membantu menjaga data agar lebih terkontrol dan sesuai dengan aturan yang telah ditentukan dalam program.
+
 **2. Penghuni Intensif**
 
 <img width="697" height="192" alt="image" src="https://github.com/user-attachments/assets/f0db1747-3f03-42bb-b3d0-016a1ad2b6bb" />
 
+Gambar di atas menampilkan penggunaan konsep enkapsulasi pada class PenghuniIntensif. Atribut pada class PenghuniIntensif diatur menggunakan access modifier private. Penggunaan access private bertujuan untuk membatasi akses langsung dari luar class sehingga nilai atribut tidak dapat dimodifikasi secara langsung dan sembarangan.
+
 **3. Penghuni Mandiri**
 
 <img width="680" height="148" alt="image" src="https://github.com/user-attachments/assets/0638725f-9a8e-4dc6-af3e-8dbe1247d515" />
+
+Gambar di atas menampilkan penggunaan konsep enkapsulasi pada class PenghuniMandiri. Atribut pada class PenghuniMandiri diatur menggunakan access modifier private. Penggunaan access private bertujuan untuk membatasi akses langsung dari luar class sehingga nilai atribut tidak dapat dimodifikasi secara langsung dan sembarangan.
 
 ## 3.4 Constructor
 
@@ -184,13 +192,23 @@ Gambar di atas juga menunjukkan penerapan konsep inheritance pada program. Pada 
 
 <img width="950" height="294" alt="image" src="https://github.com/user-attachments/assets/440893bd-ec3b-4c82-82c6-16a7cf95f5e2" />
 
+Class PenghuniPanti menggunakan constructor untuk menginisialisasi nilai atribut ketika sebuah objek penghuni dibuat. Melalui constructor ini, data awal seperti ID, nama, usia, nomor telepon, jenis kelamin, dan kondisi kesehatan penghuni dapat langsung diberikan pada saat objek dibentuk, sehingga setiap objek PenghuniPanti yang dibuat sudah memiliki data lengkap tanpa perlu proses inisialisasi tambahan setelahnya. 
+
 **2. Penghuni Intensif**
 
 <img width="975" height="168" alt="image" src="https://github.com/user-attachments/assets/dd5e02ca-1a86-42a4-9401-acc30ec5cc9f" />
 
+Gambar di atas menampilkan constructor dari kelas PenghuniIntensif, yang merupakan subclass dari kelas PenghuniPanti. Constructor ini menerima parameter data umum penghuni (idPenghuni, nama, usia, noTelp, jenisKelamin, kondisi) serta parameter khusus tambahan yang hanya dimiliki oleh penghuni intensif, yaitu namaPerawat, kontrolMedis, dan jadwalObat.
+
+Baris super(idPenghuni, nama, usia, noTelp, jenisKelamin, kondisi) digunakan untuk memanggil constructor dari kelas induk (PenghuniPanti) agar atribut-atribut umum tersebut diinisialisasi oleh constructor kelas induknya, sehingga tidak perlu ditulis ulang di kelas anak. Setelah itu, ketiga atribut tambahan (namaPerawat, kontrolMedis, jadwalObat) diinisialisasi secara langsung menggunakan this, karena atribut-atribut tersebut memang khusus dimiliki oleh kelas PenghuniIntensif dan tidak ada di kelas induknya.
+
 **3. Penghuni Mandiri**
 
 <img width="975" height="198" alt="image" src="https://github.com/user-attachments/assets/0a61519c-4d21-49a5-8e2d-2206cfd0fa3d" />
+
+Gambar di atas menampilkan constructor dari kelas PenghuniIntensif, yang merupakan subclass dari kelas PenghuniPanti. Constructor ini menerima parameter data umum penghuni (idPenghuni, nama, usia, noTelp, jenisKelamin, kondisi) serta parameter khusus tambahan yang hanya dimiliki oleh penghuni intensif, yaitu hobi dan kegiatanHarian.
+
+Baris super(idPenghuni, nama, usia, noTelp, jenisKelamin, kondisi) digunakan untuk memanggil constructor dari kelas induk (PenghuniPanti) agar atribut-atribut umum tersebut diinisialisasi oleh constructor kelas induknya, sehingga tidak perlu ditulis ulang di kelas anak. Setelah itu, kedua atribut tambahan (hobi dan kegiatanHarian) diinisialisasi secara langsung menggunakan this, karena atribut-atribut tersebut memang khusus dimiliki oleh kelas PenghuniMandiri dan tidak ada di kelas induknya.
 
 ## 3.5 Polymorphism
  
@@ -218,3 +236,4 @@ Metode overriding digunakan karena PenghuniMandiri memiliki karakteristik dan ke
 
 <img width="975" height="393" alt="image" src="https://github.com/user-attachments/assets/8bb15250-d024-4014-8967-9e8711ce47ec" />
 
+Gambar di atas menampilkan sebuah kode untuk menampilkan data penghuni panti berdasarkan kategori yang dipilih pengguna. Penggunaan instanceof memastikan hanya objek dari subclass yang sesuai yang akan dieksekusi method-nya. Jika pengguna memilih tipe tertentu seperti PenghuniMandiri atau PenghuniIntensif, operator instanceof memastikan hanya objek dari subclass yang sesuai yang akan dieksekusi method-nya. Dengan polymorphism, panggilan p.tampilkanInfo() secara otomatis akan menyesuaikan tampilan data sesuai dengan bentuk asli objek tersebut di dalam memori.
