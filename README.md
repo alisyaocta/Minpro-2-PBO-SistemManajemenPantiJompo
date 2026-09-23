@@ -12,7 +12,17 @@ NIM: 2509116017
 
 ## 1.1	Deskripsi Singkat
 ## 1.2	Tujuan
+
+Sistem Manajemen Panti Jompo dirancang dengan tujuan sebagai berikut:
+
+- Membantu mengelola data penghuni Panti Jompo Rumah Senja secara lebih terstruktur. 
+- Mempermudah dalam melakukan proses penambahan, penampilan, pembaruan, penghapusan, dan pencarian data penghuni.
+
 ## 1.3  Alur Singkat
+
+Alur program dimulai dengan menampilkan menu utama yang berisi beberapa pilihan untuk mengelola data penghuni. Pengguna dapat memilih menu sesuai dengan kebutuhan, yaitu menambahkan data, menampilkan data, memperbarui data, menghapus data, dan mencari data penghuni. Setelah pengguna memilih salat satu menu, sistem akan menjalankan proses sesuai dengan pilihan tersebut. 
+
+Pada proses tertentu, sistem akan meminta pengguna memasukkan informasi yang diperlukan dan melakukan validasi terhadap jawaban yang dimasukkan. Setelah proses selesai, sistem akan menampilkan hasil dari proses tersebut dan pengguna dapat kembali ke menu utama untuk melakukan pengelolaan data lainnya. Program akan terus berjalan hingga pengguna memilih menu Keluar.
 
 ---
 
@@ -22,21 +32,34 @@ NIM: 2509116017
 
 <img width="583" height="320" alt="image" src="https://github.com/user-attachments/assets/e4088109-ba06-4bce-aef4-f9e229b0fb41" />
 
+Gambar di atas menampilkan Menu Utama dari program Sistem Manajemen Panti Jompo Rumah Senja. Menu tersebut terdiri dari tambah data, tampilkan data, hapus data, update data, cari data penghuni, dan keluar.
+
 ## 2.2 Menu Tambah
 
 <img width="584" height="241" alt="image" src="https://github.com/user-attachments/assets/3b09014d-7fd4-4dfd-b66b-c605122957ef" />
+
+Gambar di atas menampilkan menu tambah data. Pada menu ini pengguna bisa memilih mau menambahkan informasi untuk penghuni intensif atau penghuni mandiri.
 
 ### 2.2.1 Tambah Data Penghuni Mandiri
 
 <img width="583" height="325" alt="image" src="https://github.com/user-attachments/assets/ba62c8c2-1040-4cea-a132-2eddb5f569d5" />
 
+Gambar di atas menampilkan informasi yang perlu ditambahkan untuk data penghuni mandiri. Informasi yang ditambahkan berupa informasi umum seperti id, nama, usia, jenis kelamin, no telepon keluarga, dan kondisi kesehatan, serta informasi tambahan untuk penghuni mandiri yaitu hobi dan kegiatan harian.
+
 <img width="586" height="584" alt="image" src="https://github.com/user-attachments/assets/bd25cfc3-d2b9-483e-bd26-ad6e33cd87f3" />
+
+Gambar di atas merupakan bukti bahwa data penghuni mandiri berhasil ditambahkan.
 
 ### 2.2.2 Tambah Data Penghuni Intensif
 
 <img width="584" height="344" alt="image" src="https://github.com/user-attachments/assets/154e4528-0f5e-4ef9-a545-15bf9542c45e" />
 
+Gambar di atas menampilkan informasi yang perlu ditambahkan untuk data penghuni intensif. Informasi yang ditambahkan berupa informasi umum seperti id, nama, usia, jenis kelamin, no telepon keluarga, dan kondisi kesehatan, serta informasi tambahan untuk penghuni intensif yaitu nama perawat, jadwal kontrol medis, dan jadwal pemberian obat.
+
+
 <img width="589" height="641" alt="image" src="https://github.com/user-attachments/assets/7d2c5491-e8f6-45d2-8573-86ba7cd58db8" />
+
+Gambar di atas merupakan bukti bahwa data penghuni intensif berhasil ditambahkan.
 
 ## 2.3 Menu Tampilkan
 
@@ -77,6 +100,7 @@ NIM: 2509116017
 ## 2.5 Menu Hapus
 
 <img width="375" height="114" alt="image" src="https://github.com/user-attachments/assets/340be7a9-e811-45be-b39b-aba81841a001" />
+
 
 <img width="425" height="91" alt="image" src="https://github.com/user-attachments/assets/c0cbf498-363f-466d-b77a-bb3f3606f640" />
 
