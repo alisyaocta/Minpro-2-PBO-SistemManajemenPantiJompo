@@ -32,9 +32,13 @@ Sistem Manajemen Panti Jompo dirancang dengan tujuan sebagai berikut:
 
 ## 1.3  Alur Singkat
 
-Alur program dimulai dengan menampilkan menu utama yang berisi beberapa pilihan untuk mengelola data penghuni. Pengguna dapat memilih menu sesuai dengan kebutuhan, yaitu menambahkan data, menampilkan data, memperbarui data, menghapus data, dan mencari data penghuni. Setelah pengguna memilih salat satu menu, sistem akan menjalankan proses sesuai dengan pilihan tersebut. 
+Alur program dimulai dengan menampilkan Menu Utama yang berisi beberapa pilihan untuk mengelola data penghuni. Pengguna dapat memilih menu sesuai dengan kebutuhan, yaitu menambahkan data, menampilkan data, memperbarui data, menghapus data, dan mencari data penghuni. Setelah pengguna memilih salah satu menu, sistem akan menjalankan proses sesuai dengan pilihan tersebut.
 
-Pada proses tertentu, sistem akan meminta pengguna memasukkan informasi yang diperlukan dan melakukan validasi terhadap jawaban yang dimasukkan. Setelah proses selesai, sistem akan menampilkan hasil dari proses tersebut dan pengguna dapat kembali ke menu utama untuk melakukan pengelolaan data lainnya. Program akan terus berjalan hingga pengguna memilih menu Keluar.
+Pada proses penambahan, penampilan, dan update data, sistem dapat menampilkan pilihan berdasarkan kategori penghuni, yaitu Penghuni Mandiri dan Penghuni Intensif. Ketika menambahkan data, sistem akan meminta pengguna untuk memasukkan informasi yang diperlukan sesuai dengan kategori penghuni yang dipilih. Setiap input yang diberikan akan melalui proses validasi untuk memastikan data yang dimasukkan sesuai dengan ketentuan program.
+
+Setelah proses selesai, sistem akan menampilkan hasil dari proses yang dilakukan, seperti data yang berhasil ditambahkan, ditampilkan, diperbarui, dihapus, atau ditemukan. Pengguna kemudian dapat kembali ke Menu Utama untuk melakukan pengelolaan data lainnya.
+
+Program akan terus berjalan dan menerima pilihan dari pengguna hingga pengguna memilih menu Keluar. Setelah menu tersebut dipilih, program akan mengakhiri proses dan keluar dari sistem.
 
 ---
 
