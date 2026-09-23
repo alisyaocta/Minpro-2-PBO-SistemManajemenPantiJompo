@@ -11,6 +11,18 @@ NIM: 2509116017
 # BAB I PENDAHULUAN
 
 ## 1.1	Deskripsi Singkat
+
+### Deskripsi Program
+
+**Sistem Manajemen Panti Jompo Rumah Senja** merupakan program yang dirancang untuk membantu proses pengelolaan dan pendataan penghuni panti secara lebih terstruktur dan sistematis. Program ini memungkinkan pengguna untuk mengelola informasi penghuni melalui beberapa fitur yang telah disediakan.
+
+Fitur utama yang tersedia dalam program meliputi **menambahkan data, menampilkan data, memperbarui data, menghapus data, dan mencari data penghuni**. Pada proses pembaruan data, pengguna dapat memperbarui informasi tertentu, seperti **usia dan kondisi penghuni**. Data umum yang dikelola meliputi **ID penghuni, nama, usia, jenis kelamin, nomor telepon keluarga, dan kondisi kesehatan**.
+
+Dalam program ini, penghuni panti dibedakan menjadi dua kategori, yaitu **Penghuni Intensif** dan **Penghuni Mandiri**. Penghuni Intensif merupakan penghuni yang membutuhkan pemantauan dan perawatan lebih lanjut, sehingga memiliki informasi tambahan seperti **nama perawat, jadwal kontrol medis, dan jadwal pemberian obat**. Sementara itu, Penghuni Mandiri merupakan penghuni yang masih dapat melakukan aktivitas sehari-hari secara lebih mandiri dan memiliki informasi tambahan berupa **hobi serta kegiatan harian**.
+
+Dalam pembuatannya, program ini menerapkan beberapa konsep **Object-Oriented Programming (OOP)**, yaitu **enkapsulasi, inheritance, dan polymorphism**. Selain itu, struktur program menggunakan pola **Model-View-Controller (MVC)** untuk memisahkan pengelolaan data, interaksi pengguna, dan pengendalian alur program. Penerapan konsep-konsep tersebut bertujuan agar program memiliki struktur yang lebih terorganisir serta memudahkan proses pengembangan dan pemeliharaan kode.
+
+
 ## 1.2	Tujuan
 
 Sistem Manajemen Panti Jompo dirancang dengan tujuan sebagai berikut:
