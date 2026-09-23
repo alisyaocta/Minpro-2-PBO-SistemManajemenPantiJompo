@@ -32,50 +32,59 @@ Pada proses tertentu, sistem akan meminta pengguna memasukkan informasi yang dip
 
 <img width="583" height="320" alt="image" src="https://github.com/user-attachments/assets/e4088109-ba06-4bce-aef4-f9e229b0fb41" />
 
-Gambar di atas menampilkan Menu Utama dari program Sistem Manajemen Panti Jompo Rumah Senja. Menu tersebut terdiri dari tambah data, tampilkan data, hapus data, update data, cari data penghuni, dan keluar.
+Gambar di atas menampilkan Menu Utama dari program Sistem Manajemen Panti Jompo Rumah Senja. Menu ini menjadi tampilan awal yang digunakan sebagai pusat navigasi bagi pengguna dalam mengelola data penghuni panti. Terdapat beberapa pilihan menu, yaitu Tambah Data untuk menambahkan data penghuni baru, Tampilkan Data untuk melihat data penghuni yang telah tersimpan, Hapus Data untuk menghapus data penghuni, Update Data untuk memperbarui informasi penghuni, Cari Data Penghuni untuk mencari data berdasarkan informasi tertentu, serta Keluar untuk mengakhiri program.
+
+Pengguna dapat memilih menu sesuai dengan kebutuhan pengelolaan data melalui pilihan nomor yang tersedia. Dengan adanya Menu Utama ini, proses pengelolaan data penghuni dapat dilakukan secara lebih terstruktur dan mudah digunakan.
 
 ## 2.2 Menu Tambah
 
 <img width="584" height="241" alt="image" src="https://github.com/user-attachments/assets/3b09014d-7fd4-4dfd-b66b-c605122957ef" />
 
-Gambar di atas menampilkan menu tambah data. Pada menu ini pengguna bisa memilih mau menambahkan informasi untuk penghuni intensif atau penghuni mandiri.
+Gambar di atas menampilkan Menu Tambah Data pada program Sistem Manajemen Panti Jompo Rumah Senja. Pada menu ini, pengguna dapat memilih jenis penghuni yang ingin ditambahkan, yaitu Penghuni Intensif atau Penghuni Mandiri. Setiap jenis penghuni memiliki data yang perlu diinput sesuai dengan kategorinya. Setelah pengguna memilih jenis penghuni, sistem akan meminta pengguna untuk memasukkan informasi yang diperlukan, seperti ID, nama, usia, nomor telepon, jenis kelamin, serta kondisi penghuni. Dengan adanya pilihan tersebut, data penghuni dapat dikelompokkan berdasarkan jenisnya sehingga pengelolaan data menjadi lebih terstruktur.
 
 ### 2.2.1 Tambah Data Penghuni Mandiri
 
 <img width="583" height="325" alt="image" src="https://github.com/user-attachments/assets/ba62c8c2-1040-4cea-a132-2eddb5f569d5" />
 
-Gambar di atas menampilkan informasi yang perlu ditambahkan untuk data penghuni mandiri. Informasi yang ditambahkan berupa informasi umum seperti id, nama, usia, jenis kelamin, no telepon keluarga, dan kondisi kesehatan, serta informasi tambahan untuk penghuni mandiri yaitu hobi dan kegiatan harian.
+Gambar di atas menampilkan informasi yang perlu diinput untuk menambahkan data Penghuni Mandiri. Informasi yang dimasukkan terdiri dari data umum penghuni, yaitu ID, nama, usia, jenis kelamin, nomor telepon keluarga, dan kondisi kesehatan. Selain itu, terdapat informasi tambahan khusus untuk Penghuni Mandiri, yaitu hobi dan kegiatan harian. Data tersebut digunakan untuk memberikan informasi yang lebih lengkap mengenai penghuni.
 
 <img width="586" height="584" alt="image" src="https://github.com/user-attachments/assets/bd25cfc3-d2b9-483e-bd26-ad6e33cd87f3" />
 
-Gambar di atas merupakan bukti bahwa data penghuni mandiri berhasil ditambahkan.
+Gambar di atas menunjukkan bahwa data Penghuni Mandiri berhasil ditambahkan ke dalam sistem.
 
 ### 2.2.2 Tambah Data Penghuni Intensif
 
 <img width="584" height="344" alt="image" src="https://github.com/user-attachments/assets/154e4528-0f5e-4ef9-a545-15bf9542c45e" />
 
-Gambar di atas menampilkan informasi yang perlu ditambahkan untuk data penghuni intensif. Informasi yang ditambahkan berupa informasi umum seperti id, nama, usia, jenis kelamin, no telepon keluarga, dan kondisi kesehatan, serta informasi tambahan untuk penghuni intensif yaitu nama perawat, jadwal kontrol medis, dan jadwal pemberian obat.
-
+Gambar di atas menampilkan informasi yang perlu diinput untuk menambahkan data Penghuni Intensif. Informasi yang dimasukkan terdiri dari data umum penghuni, yaitu ID, nama, usia, jenis kelamin, nomor telepon keluarga, dan kondisi kesehatan. Selain itu, terdapat informasi tambahan khusus untuk Penghuni Intensif, yaitu nama perawat, jadwal kontrol medis, dan jadwal pemberian obat. Informasi tambahan tersebut digunakan untuk mendukung pengelolaan dan pemantauan kebutuhan khusus penghuni intensif.
 
 <img width="589" height="641" alt="image" src="https://github.com/user-attachments/assets/7d2c5491-e8f6-45d2-8573-86ba7cd58db8" />
 
-Gambar di atas merupakan bukti bahwa data penghuni intensif berhasil ditambahkan.
+Gambar di atas menunjukkan bahwa data Penghuni Intensif berhasil ditambahkan ke dalam sistem.
 
 ## 2.3 Menu Tampilkan
 
 <img width="592" height="273" alt="image" src="https://github.com/user-attachments/assets/75427902-e45b-49a5-8324-47cd3aba0469" />
 
+Gambar di atas menampilkan Menu Tampilkan Data pada program Sistem Manajemen Panti Jompo Rumah Senja. Pada menu ini, pengguna dapat memilih jenis data yang ingin ditampilkan, yaitu seluruh data penghuni, data Penghuni Mandiri, atau data Penghuni Intensif. Pilihan tersebut memudahkan pengguna dalam melihat data sesuai dengan kebutuhan.
+
 ### 2.3.1 Tampilkan Seluruh Data Penghuni
 
 <img width="591" height="620" alt="image" src="https://github.com/user-attachments/assets/a4c91adb-b041-49cb-b5c0-ec04ccfc5bc2" />
+
+Gambar di atas menunjukkan seluruh data penghuni Panti Jompo Rumah Senja, yang terdiri dari Penghuni Mandiri dan Penghuni Intensif. Ketika pengguna memilih menu untuk menampilkan seluruh data, sistem akan menampilkan informasi dari kedua jenis penghuni tersebut.
 
 ### 2.3.2 Tampilkan Data Penghuni Intensif
 
 <img width="591" height="377" alt="image" src="https://github.com/user-attachments/assets/de304a99-03db-4577-bd91-49f1c1c032cd" />
 
+Gambar di atas menunjukkan data Penghuni Intensif. Ketika pengguna memilih menu ini, sistem hanya akan menampilkan informasi penghuni yang termasuk dalam kategori Penghuni Intensif, sehingga data dapat dilihat secara lebih spesifik sesuai dengan jenis penghuni yang dipilih.
+
 ### 2.3.3 Tampilkan Data Penghuni Mandiri
 
 <img width="588" height="348" alt="image" src="https://github.com/user-attachments/assets/22a3cfdf-ad7d-47b1-99a6-3902361f8ce1" />
+
+Gambar di atas menunjukkan data Penghuni Mandiri. Ketika pengguna memilih menu ini, sistem hanya akan menampilkan informasi penghuni yang termasuk dalam kategori Penghuni Mandiri, sehingga data dapat dilihat secara lebih spesifik sesuai dengan jenis penghuni yang dipilih.
 
 ## 2.4 Menu Update
 
@@ -119,18 +128,41 @@ Gambar di atas merupakan bukti bahwa data penghuni intensif berhasil ditambahkan
 
 <img width="495" height="341" alt="image" src="https://github.com/user-attachments/assets/210e7af7-1b0a-4d77-a377-4e26ecfc84ca" />
 
+MVC (Model, View, Controller) merupakan pola atau struktur dalam pembuatan proyek yang digunakan untuk memisahkan bagian data, tampilan, dan proses pengendalian program. Penerapan MVC bertujuan agar kode program lebih terstruktur, mudah dipahami, serta memudahkan proses pengembangan dan pemeliharaan program.
+
+Pada proyek Sistem Manajemen Panti Jompo Rumah Senja, penerapan MVC dibagi menjadi tiga package, yaitu:
+
+**1. Package Model**
+
+Package model berisikan class PenghuniPanti, PenghuniIntensif, dan PenghuniMandiri. Package ini bertugas untuk merepresentasikan dan mengelola data serta atribut yang dimiliki oleh setiap penghuni. Class PenghuniIntensif dan PenghuniMandiri merupakan turunan dari class PenghuniPanti sehingga dapat menerapkan konsep inheritance dalam pemrograman berorientasi objek.
+
+**2. Package View**
+
+Package view berisikan class InputValidasi. Package ini bertugas untuk menangani bagian yang berhubungan dengan interaksi pengguna, seperti menerima input dan melakukan validasi terhadap data yang dimasukkan agar sesuai dengan ketentuan program.
+
+**3. Package Controller**
+
+Package controller berisikan class ManajemenPanti. Package ini bertugas sebagai penghubung antara Model dan View serta mengatur alur proses program. Class ManajemenPanti menangani proses seperti menambahkan, menampilkan, menghapus, memperbarui, dan mencari data penghuni berdasarkan input yang diberikan oleh pengguna.
+
 ## 3.2 Inheritance
 
 <img width="495" height="114" alt="image" src="https://github.com/user-attachments/assets/7897fae5-d64b-4767-a312-89567f51dffc" />
+
+Inheritance merupakan mekanisme dalam pemrograman berorientasi objek yang memungkinkan sebuah Subclass mewarisi atribut dan method dari kelas Superclass. Konsep ini digunakan untuk mengurangi pengulangan kode serta memudahkan pengelolaan kelas yang memiliki karakteristik yang saling berkaitan.
+
+Pada project Sistem Manajemen Panti Jompo Rumah Senja, class PenghuniPanti berperan sebagai Superclass, sedangkan class PenghuniIntensif dan PenghuniMandiri berperan sebagai Subclass. Kedua subclass tersebut mewarisi atribut dan method umum dari class PenghuniPanti, kemudian memiliki informasi tambahan yang berbeda sesuai dengan jenis penghuni. Dengan menerapkan inheritance, data dan perilaku yang bersifat umum dapat diletakkan pada superclass, sedangkan karakteristik khusus dapat ditambahkan pada masing-masing subclass.
 
 **1. Penghuni Intensif**
 
 <img width="720" height="181" alt="image" src="https://github.com/user-attachments/assets/efbff4e5-a59f-4c29-9c3a-47b76c8ccbb4" />
 
+Gambar di atas menunjukkan penerapan konsep inheritance pada program. Pada kode tersebut terdapat keyword extends yang digunakan untuk menunjukkan bahwa class PenghuniIntensif mewarisi atribut dan method dari class PenghuniPanti sebagai superclass. Dengan demikian, PenghuniIntensif dapat menggunakan data dan perilaku yang sudah didefinisikan pada class PenghuniPanti serta menambahkan atribut atau method khusus sesuai dengan jenis penghuninya.
+
 **2. Penghuni Mandiri**
 
 <img width="692" height="159" alt="image" src="https://github.com/user-attachments/assets/a2d7ebcd-211b-407a-872d-39922184f37c" />
 
+Gambar di atas juga menunjukkan penerapan konsep inheritance pada program. Pada kode tersebut terdapat keyword extends yang digunakan untuk menunjukkan bahwa class PenghuniMandiri mewarisi atribut dan method dari class PenghuniPanti sebagai superclass. Dengan demikian, PenghuniMandiri dapat menggunakan data dan perilaku yang sudah didefinisikan pada class PenghuniPanti serta menambahkan atribut atau method khusus sesuai dengan jenis penghuninya.
 
 ## 3.3 Encapsulation
 
@@ -160,7 +192,7 @@ Gambar di atas merupakan bukti bahwa data penghuni intensif berhasil ditambahkan
 
 <img width="975" height="198" alt="image" src="https://github.com/user-attachments/assets/0a61519c-4d21-49a5-8e2d-2206cfd0fa3d" />
 
-## 3.5 Polymorpyhsm
+## 3.5 Polymorphism
  
 **1. Penghuni Panti**
 
@@ -170,9 +202,17 @@ Gambar di atas merupakan bukti bahwa data penghuni intensif berhasil ditambahkan
 
 <img width="841" height="245" alt="image" src="https://github.com/user-attachments/assets/8a954d1a-c982-4ce7-9a05-7ecf2ed687b0" />
 
+Gambar di atas menunjukkan penerapan polymorphism pada class PenghuniIntensif. Penggunaan polymorphism pada kode tersebut ditandai dengan adanya anotasi @Override. Pada project Sistem Manajemen Panti Jompo Rumah Senja, metode polymorphism yang digunakan adalah method overriding, yaitu kondisi ketika subclass mendefinisikan kembali method yang sebelumnya sudah terdapat pada superclass dengan implementasi yang disesuaikan dengan kebutuhan subclass tersebut.
+
+Metode overriding digunakan karena PenghuniIntensif memiliki karakteristik dan kebutuhan informasi yang berbeda dari PenghuniPanti. Dengan overriding, method yang diwarisi dari superclass dapat disesuaikan sehingga ketika dipanggil pada objek PenghuniIntensif, sistem akan menjalankan implementasi method yang terdapat pada class PenghuniIntensif. Hal ini membuat setiap subclass dapat memiliki perilaku yang sesuai dengan karakteristiknya masing-masing.
+
 **3. Penghuni Mandiri**
 
 <img width="861" height="206" alt="image" src="https://github.com/user-attachments/assets/b51f6129-cc72-43b2-a8ad-f43309826dc5" />
+
+Gambar di atas juga menunjukkan penerapan polymorphism pada class PenghuniMandiri. Penggunaan polymorphism pada kode tersebut ditandai dengan adanya anotasi @Override. Pada project Sistem Manajemen Panti Jompo Rumah Senja, metode polymorphism yang digunakan adalah method overriding.
+
+Metode overriding digunakan karena PenghuniMandiri memiliki karakteristik dan kebutuhan informasi yang berbeda dari PenghuniPanti. Dengan overriding, method yang diwarisi dari superclass dapat disesuaikan sehingga ketika dipanggil pada objek PenghuniMandiri, sistem akan menjalankan implementasi method yang terdapat pada class PenghuniMandiri. Hal ini membuat setiap subclass dapat memiliki perilaku yang sesuai dengan karakteristiknya masing-masing.
 
 **4. Memanggil Polymorpyhsm**
 
