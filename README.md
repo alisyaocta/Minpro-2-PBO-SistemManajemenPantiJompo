@@ -154,9 +154,48 @@ Pada menu Cari Data Penghuni, pengguna dapat mencari informasi mengenai penghuni
 
 Pada menu Keluar, pengguna dapat memilih menu tersebut apabila telah selesai menggunakan sistem. Setelah menu dipilih, program akan menghentikan seluruh proses dan keluar dari sistem sehingga pengguna tidak dapat melakukan pengelolaan data lagi sampai program dijalankan kembali.
 
+## 2.8 Validasi
+
+<img width="376" height="51" alt="image" src="https://github.com/user-attachments/assets/326379f8-f7e9-4193-b0e8-3b6a32ac89d2" />
+
+Gambar di atas menampilkan validasi pilihan menu. Jika pengguna memasukkan pilihan yang melebihi batas yang tersedia, sistem akan menampilkan pesan peringatan seperti pada gambar.
+
+<img width="394" height="50" alt="image" src="https://github.com/user-attachments/assets/69834fab-c8f9-4d22-90c4-18c1a9f6b2e2" />
+
+Gambar di atas menampilkan validasi input ID. Pengguna tidak diperbolehkan memasukkan huruf pada atribut ID karena ID hanya dapat berupa angka.
+
+<img width="395" height="51" alt="image" src="https://github.com/user-attachments/assets/06896225-93cd-4ee6-a2a7-2aa6ceef1f33" />
+
+Gambar di atas menampilkan validasi ID. Jika pengguna memasukkan ID penghuni yang sudah tersimpan di dalam sistem, sistem akan menampilkan pesan peringatan, hal ini dilakukan untuk mencegah terjadinya duplikasi data.
+
+<img width="390" height="55" alt="image" src="https://github.com/user-attachments/assets/3cf87de6-ce53-48da-a261-50214d06b814" />
+
+Gambar di atas menampilkan validasi nama. Pengguna tidak diperbolehkan mengisi atribut nama dengan angka untuk menjaga kesesuaian format data nama.
+
+<img width="379" height="51" alt="image" src="https://github.com/user-attachments/assets/36176c43-1e0e-404c-b384-eff11d33e91c" />
+
+Gambar di atas menampilkan validasi nama. Pengguna tidak diperbolehkan mengosongkan atribut nama saat memasukkan data.
+
+<img width="374" height="49" alt="image" src="https://github.com/user-attachments/assets/a203177c-0d37-4c4f-b041-6d3f748ebbe9" />
+
+Gambar di atas menampilkan validasi usia. Pengguna tidak diperbolehkan memasukkan usia dengan angka negatif.
+
+<img width="378" height="50" alt="image" src="https://github.com/user-attachments/assets/e065ca77-4a49-4c8e-a4ea-90a7fa5062e1" />
+
+Gambar di atas menampilkan validasi nomor telepon. Pengguna tidak diperbolehkan mengisi atribut nomor telepon dengan huruf karena nomor telepon hanya dapat berupa angka.
+
+<img width="443" height="49" alt="image" src="https://github.com/user-attachments/assets/1a7d8a9c-982d-42be-8c4b-d40f473d1c34" />
+
+Gambar di atas menampilkan validasi jenis kelamin. Pengguna tidak diperbolehkan memasukkan angka pada atribut jenis kelamin.
+
+<img width="394" height="45" alt="image" src="https://github.com/user-attachments/assets/3f6ee38b-e22a-41ba-9163-3572c046de2c" />
+
+Gambar di atas menampilkan validasi kondisi kesehatan. Pengguna tidak diperbolehkan memasukkan angka pada atribut kondisi kesehatan.
+
 ---
 
-# BAB III 
+# BAB III PEMBAHASAN
+
 ## 3.1 MVC
 
 <img width="495" height="341" alt="image" src="https://github.com/user-attachments/assets/210e7af7-1b0a-4d77-a377-4e26ecfc84ca" />
